@@ -1,0 +1,363 @@
+body{
+    position: relative;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 950px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/Mercedes_Russel2copy.jpg);
+    background-size: cover;
+}
+
+.content-area {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 10%;
+    line-height: 10px;
+}
+
+.header-content .nagy {
+    font-size: 50px;
+    color: #fff;
+}
+
+.header-content .kicsi {
+    font-size: 20px;
+    color: orangered;
+}
+
+/* HEADER END */
+
+/* NAV */
+
+.navbar-nav .nav-item-admin>.nav-link {
+    color: rgba(169, 169, 169, 0.648);
+}
+
+.navbar-nav .nav-item-admin>.nav-link:hover {
+    color: rgb(169, 169, 169);
+}
+
+/* NAV END */
+
+/*CONTENT START*/
+
+#container{
+    height: 100%;
+}
+
+/*CONTENT END*/
+
+/* KEZDOLAP */
+
+.kezdolap-container{
+    display: block;
+}
+
+.k1-container{
+    display: flex;
+    margin-bottom: 8%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.k1-container > a{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-left: 130px;
+    text-decoration: none;
+    color: black;
+}
+
+.k1-container > a:hover{
+    color: red;
+}
+
+.k2-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.k2-container > a{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: 130px;
+    text-decoration: none;
+    color: black;
+}
+
+.k2-container > a:hover{
+    color: red;
+}
+
+/* KEZDOLAP END */
+
+/* HIREK */
+
+#sql-container{
+    height: 100%;
+    margin: 8%;
+}
+
+.col > .card{
+    width: 400px;
+    height: 650px !important;
+}
+
+.card > .card-header{
+    background-image: linear-gradient(#000000de,#202020c4);
+}
+
+.card > .card-footer {
+    background-image: linear-gradient(#202020c4,#000000de);
+}
+
+/* HIREK END */
+
+/* VERSENYNAPTAR */
+
+thead {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.naptar-container {
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: 35%;
+}
+
+.kep-container>.naptarKep1, .naptarKep2 {
+    display: block;
+}
+
+.kep-container {
+    width: 50%;
+    display: block;
+    margin-top: 20%;
+}
+
+.oldal-container{
+    display: flex;
+}
+
+.kep-container > .naptarKep1{
+    margin-left: 7%;
+    margin-bottom: 20%;
+}
+
+/* VERSENYNAPTAR END  */
+
+/* ADMIN-BEJELENTKEZES */
+
+.form-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > .form-floating{
+    width: 350px;
+}
+
+form > button{
+    margin-top: 15px;
+}
+
+form > .login{
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+/* ADMIN-BEJELENTKEZES END */
+
+/* ADMIN */
+
+#admin-container{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+}
+
+.uj-container{
+    margin-left: 8%;
+    width: 350px;
+}
+
+.meglevo-container{
+    margin-left: 3%;
+    width: 450px;
+}
+
+.torles-container{
+    margin-left: 8%;
+    width: 300px;
+}
+
+.uj-container > #uj-form > h2{
+    font-size: 1.6em;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.meglevo-container > #meglevo-form > h2{
+    font-size: 1.6em;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+.torles-container > #torles-form > h2{
+    font-size: 1.6em;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#torles-form> .torles >input {
+    width: 150px;
+    margin-bottom: 5%;
+}
+
+#torles-form> .torles > select {
+    width: 150px;
+}
+
+.uj{
+    margin-left: 10%;
+    width: 250px;
+}
+
+.meglevo {
+    margin-left: 10%;
+    width: 400px;
+}
+
+.torles {
+    margin-left: 10%;
+    width: 400px;
+}
+
+.uj-container > #uj-form > button{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.meglevo-container > #meglevo-form > button{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.torles-container > #torles-form > button{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#uj-form > .uj > label{
+    font-weight: bolder;
+}
+
+#meglevo-form > .meglevo > label{
+    font-weight: bolder;
+}
+
+#torles-form > .torles > label{
+    font-weight: bolder;
+}
+
+.meglevo > select{
+    width: 400px;
+    margin-bottom: 5%;
+}
+
+/* ADMIN END */
+
+/* FOOTER */
+
+.footer-container {
+    position: static;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 230px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000000da;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#fContainer1 {
+    display: flex;
+    align-items: center;  
+    font-size: 20px;
+}
+
+#fContainer2 .kapcsolat {
+    font-size: 20px;
+    /*padding-bottom: 10px;*/
+    font-weight: bold;
+}
+
+#fContainer2 {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#fContainer3 .tovabbi-info {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fContainer3 {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#fContainer3 .policies:hover {
+    color: red;
+}
+
+.forrasok {
+    font-size: 13px;
+    font-weight: bolder;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.forrasok > a {
+    font-size: 13px;
+    font-weight: lighter;
+    display: inline-flex;
+}
+
+.forrasok a:hover {
+    color: red;
+}
+
+/* FOOTER END */
