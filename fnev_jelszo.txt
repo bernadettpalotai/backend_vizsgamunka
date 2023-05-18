@@ -1,0 +1,4 @@
+Az admin felületre való bejelentkezéshez:
+
+felhasználónév: admin123
+jelszó: 123456
